@@ -79,6 +79,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AT24CX.h" />
     <ClInclude Include="config.h" />
     <ClInclude Include="coolant_control.h" />
     <ClInclude Include="cpu_map.h" />
@@ -93,6 +94,7 @@
     <ClInclude Include="limits.h" />
     <ClInclude Include="motion_control.h" />
     <ClInclude Include="nuts_bolts.h" />
+    <ClInclude Include="p32mx795f512l.h" />
     <ClInclude Include="planner.h" />
     <ClInclude Include="print.h" />
     <ClInclude Include="probe.h" />
@@ -106,6 +108,7 @@
     <ClInclude Include="__vm\.grbl_max32.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AT24CX.cpp" />
     <ClCompile Include="coolant_control.c" />
     <ClCompile Include="eeprom.c" />
     <ClCompile Include="gcode.c" />
